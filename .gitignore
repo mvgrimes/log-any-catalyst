@@ -1,4 +1,5 @@
 .build/
+_build/
 .*.swp
 tags
 errors.err
@@ -7,3 +8,6 @@ errors.err
 .DS_Store
 .cache
 Log-Any-*
+Build
+MYMETA.json
+MYMETA.yml
