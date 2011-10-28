@@ -1,0 +1,9 @@
+.build/
+.*.swp
+tags
+errors.err
+*.bak
+.*.swp
+.DS_Store
+.cache
+Log-Any-*
