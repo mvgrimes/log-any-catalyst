@@ -21,7 +21,9 @@ my $build = Module::Build->new(
         resources => {
             bugtracker =>
               'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Log-Any-Adapter-Catalyst',
-            repository => 'http://github.com/mvgrimes/log-any-catalyst'
+            repository => 'http://github.com/mvgrimes/log-any-catalyst',
+            homepage =>
+              'https://metacpan.org/module/Log::Any::Adapter::Catalyst',
         }
     },
 );

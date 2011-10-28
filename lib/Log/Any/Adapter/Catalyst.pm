@@ -47,7 +47,7 @@ In a Catalyst Model, View, etc (anywhere you don't have C<$c>):
 
     use Log::Any qw($log);
 
-    $log->debug( "This will go to $c->log() if called from inside Catalyst" );
+    $log->debug( "Sent to $c->log() if called from a Catalyst model" );
 
 In a your main Catalyst module (MyApp.pm):
 
