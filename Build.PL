@@ -6,6 +6,7 @@ my $build = Module::Build->new(
     create_readme => 1,
     requires      => {
         'perl'              => '5.008',
+        'Log::Any'          => 0,
         'Log::Any::Adapter' => 0,
         'Carp'              => 0,
     },
