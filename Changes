@@ -1,0 +1,6 @@
+Changes for Log::Any::Adapter::Catalyst
+
+0.10 - Fri Oct 28 13:06:24 EDT 2011
+    Initial release. This is a pretty simple adapter that will allow you to
+    use Log::Any in Catalyst Models (and anything else your Catalyst app
+    uses) and have it all piped to the Catalyst::Log object.
