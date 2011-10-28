@@ -5,7 +5,9 @@ use warnings;
 use Carp;
 use base qw(Log::Any::Adapter::Base);
 
-our $VERSION = '0.10';
+# ABSTRACT: Enable error and status logging in Catalyst Models via Log::Any
+
+# VERSION
 
 sub init {
     my ($self) = @_;
@@ -36,10 +38,6 @@ foreach my $method ( Log::Any->logging_and_detection_methods() ) {
 __END__
 
 =pod
-
-=head1 NAME
-
-Log::Any::Adapter::Catalyst
 
 =head1 SYNOPSIS
 
@@ -79,16 +77,5 @@ Log levels are translated from L<Log::Any> to L<Catalyst::Log> as follows:
 
 L<Log::Any|Log::Any>, L<Log::Any::Adapter|Log::Any::Adapter>,
 L<Catalyst|Catalyst>, L<Catalyst::Log|Catalyst::Log>
-
-=head1 AUTHOR
-
-Mark Grimes
-
-=head1 COPYRIGHT & LICENSE
-
-Copyright (C) 2011 Mark Grimes, all rights reserved.
-
-This program is free software; you can redistribute it and/or modify it under
-the same terms as Perl itself.
 
 =cut
